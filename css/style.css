@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.todolist {
+   
+    background-color: rgb(233, 230, 230);
+    display: flex;
+    justify-content: center;
+}
+
+.todolist__header {
+    text-align: center;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+.todolist__input,
+.input__edit {
+    width: 300px;
+    height: 30px;
+}
+
+.todolist_items {
+    padding: 0;
+}
+
+.todolist_item {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    
+}
+
+.todolist__task  {
+    padding: 0;
+}
+
+
+.done {
+    color:rgb(129, 129, 129);
+    text-decoration: line-through;
+}
+
+.modal {
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.modal__container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__wrapper {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__save {
+    height: 30px;
+    margin-top: 10px;
+}
